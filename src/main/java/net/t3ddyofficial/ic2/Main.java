@@ -15,6 +15,7 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.t3ddyofficial.ic2.items.ModCreativeTabs;
 import net.t3ddyofficial.ic2.items.ModItems;
 import org.slf4j.Logger;
 
@@ -30,6 +31,7 @@ public class Main {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModCreativeTabs.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

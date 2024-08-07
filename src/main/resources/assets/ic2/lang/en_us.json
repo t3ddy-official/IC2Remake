@@ -1,4 +1,6 @@
 {
   "item.ic2.advanced_circuit": "Advanced Circuit",
-  "item.ic2.nonexistent": "Non-Existent Item"
+  "item.ic2.nonexistent": "Non-Existent Item",
+
+  "creativetab.ic_tab": "Industrial Craft"
 }
